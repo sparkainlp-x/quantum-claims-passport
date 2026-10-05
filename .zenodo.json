@@ -1,0 +1,64 @@
+{
+  "upload_type": "software",
+  "title": "Quantum Claims Evidence Passport: An Offline Audit of a Swiss Quantum Hub Announcement and a Modeled 613 THz Anesthetic/Microtubule Frequency Band",
+  "version": "0.1.0",
+  "description": "<p><strong>Quantum Claims Evidence Passport</strong> is an original, offline Python CLI and static HTML report for <em>claims audit and scientific communication</em>. It separates an institutional announcement and future deployment plan from computational/theoretical modeling, animal behavioral evidence, hypotheses, and unsupported inferences, without combining them into a score.</p><p>The 2017 source's 613 ± 8 THz notation is described as a modeled/reported frequency band, not a direct measurement or a statistical confidence interval. The cited 2024 within-subject study involved eight male Long–Evans rats (N=8) and used loss-of-righting-reflex (LORR) latency as a behavioral proxy under 4% isoflurane; it reported a mean delay of about +69 s (p=0.0016). That study did not measure 613 THz or establish a quantum-consciousness mechanism, human outcomes, or clinical advice.</p><p>Includes cited factual summaries, source links, reproducible exact-SI frequency conversions, an original SVG evidence-class visual, fail-closed validation, and standard-library tests. No paper text or figure, screenshots, logos, or third-party images are copied. No affiliation with IBM, Lockheed Martin, ETH Zurich, or CSCS is implied. Not medical, scientific, or investment advice. Audit snapshot: 2026-10-05.</p>",
+  "creators": [
+    {
+      "name": "Brisson, Jean-François",
+      "affiliation": "Spark AI NLP",
+      "orcid": "0009-0000-9778-5374"
+    }
+  ],
+  "access_right": "open",
+  "license": "agpl-3.0-only",
+  "language": "eng",
+  "keywords": [
+    "evidence audit",
+    "claims audit",
+    "scientific communication",
+    "reproducibility",
+    "research software",
+    "quantum computing",
+    "anesthesia",
+    "microtubules",
+    "unit conversion"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/sparkainlp-x/quantum-claims-passport",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23165143",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "software"
+    },
+    {
+      "identifier": "10.1038/s41598-017-09992-7",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1523/ENEURO.0291-24.2024",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    },
+    {
+      "identifier": "10.1093/nc/niaf011",
+      "relation": "references",
+      "scheme": "doi",
+      "resource_type": "publication-article"
+    }
+  ],
+  "communities": [
+    {
+      "identifier": "spark-ai-nlp"
+    }
+  ],
+  "notes": "Code and original report/SVG design: AGPL-3.0-only (commercial licence: see COMMERCIAL-LICENSE.md). An earlier local draft suggested MIT; the published repository uses AGPL-3.0-only. External sources retain their owners' terms. Do not mint a GitHub release until the Zenodo webhook is enabled."
+}

@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>Quantum Claims Evidence Passport</title>
+<style>
+:root { --ink:#14233d; --muted:#526176; --paper:#f4f6fa; --card:#fff; --line:#dce3ed; --blue:#245a9b; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.58 system-ui,-apple-system,"Segoe UI",sans-serif; }
+main { width:min(1040px,100% - 32px); margin:32px auto 64px; }
+header { background:#112541; color:#fff; border-radius:22px; padding:32px clamp(22px,5vw,52px); }
+.eyebrow { color:#bcd5fb; font-size:.78rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+h1 { margin:.45rem 0 .5rem; font-size:clamp(2rem,5vw,3.1rem); line-height:1.08; letter-spacing:-.035em; }
+header p { max-width:760px; color:#e2eaf6; margin:.7rem 0 0; }
+.snapshot { display:inline-block; margin-top:1rem; color:#d1def0; font-size:.9rem; }
+section { margin-top:28px; }
+h2 { font-size:1.4rem; letter-spacing:-.015em; margin:0 0 8px; }
+.lede { color:var(--muted); margin:.25rem 0 16px; max-width:850px; }
+.facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:12px; }
+.fact { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:18px; }
+.fact strong { display:block; margin-bottom:6px; color:#1e477a; }
+.fact p { margin:0; color:#33435a; font-size:.94rem; }
+.visual-wrap { overflow-x:auto; background:#fff; border:1px solid var(--line); border-radius:18px; padding:10px; }
+.visual-wrap svg { display:block; min-width:850px; width:100%; height:auto; }
+.conversion { border-collapse:collapse; width:100%; background:#fff; border:1px solid var(--line); border-radius:14px; overflow:hidden; }
+.conversion th,.conversion td { border-bottom:1px solid var(--line); padding:12px 14px; text-align:left; vertical-align:top; }
+.conversion th { background:#edf2f8; color:#293d5a; font-size:.88rem; }
+.conversion tr:last-child td { border-bottom:0; }
+.note { font-size:.91rem; color:var(--muted); margin:12px 0 0; }
+.claims { display:grid; gap:12px; }
+.claim-card { background:#fff; border:1px solid var(--line); border-radius:16px; padding:18px 20px; }
+.claim-meta { display:flex; align-items:center; flex-wrap:wrap; gap:8px; margin-bottom:10px; }
+.claim-id { font:700 .79rem ui-monospace,SFMono-Regular,Consolas,monospace; color:#526176; }
+.badge { border-radius:999px; padding:3px 9px; font-size:.77rem; font-weight:750; }
+.badge.blue { background:#dcecff;color:#245a9b; } .badge.violet { background:#e5e5ff;color:#51459a; }
+.badge.green { background:#dff4ef;color:#176b5c; } .badge.amber { background:#fff0d7;color:#80540e; }
+.badge.red { background:#fde3e5;color:#a53845; }
+.topic { color:var(--muted); font-size:.84rem; }
+.claim-card h3 { font-size:1.03rem; line-height:1.43; margin:0 0 7px; }
+.claim-card p { color:#3d4b61; margin:.35rem 0; }
+.sources { margin-top:10px; color:#47566d; font-size:.85rem; }
+a { color:#175b9e; text-underline-offset:2px; }
+.sources a { margin-right:10px; }
+.limits { background:#fff; border:1px solid var(--line); border-left:5px solid #7386a0; border-radius:12px; padding:16px 18px; color:#394960; }
+footer { border-top:1px solid var(--line); margin-top:30px; padding-top:16px; color:#5a687b; font-size:.84rem; }
+@media(max-width:700px) { main { width:min(100% - 20px,1040px); margin-top:12px; } header { border-radius:16px; padding:24px 20px; } .facts { grid-template-columns:1fr; } .conversion th,.conversion td { padding:10px 8px; font-size:.88rem; } .claim-card { padding:15px; } }
+@media print { body { background:#fff; } main { width:100%; margin:0; } header { print-color-adjust:exact; } .visual-wrap { overflow:visible; } .visual-wrap svg { min-width:0; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+<div class="eyebrow">Evidence passport · version 0.1.0</div>
+<h1>Quantum Claims<br>Evidence Passport</h1>
+<p>A compact, source-linked check of two different stories: a planned Swiss quantum-computing hub and a modeled anesthetic/microtubule frequency. Evidence types stay separate; this page does not turn them into a single score.</p>
+<span class="snapshot">Audit snapshot: <time datetime="2026-10-05">2026-10-05</time></span>
+</header>
+<section aria-labelledby="readout-title">
+<h2 id="readout-title">The short read</h2>
+<div class="facts">
+<div class="fact"><strong>System Two: planned</strong><p>The IBM/ETH announcements set an expected end-of-2026 deployment/operation date. They are not proof of current operation or an individual access entitlement.</p></div>
+<div class="fact"><strong>613 THz: modeled band</strong><p>The 2017 source is computational/theoretical: it models dipole modes in a tubulin model. Its reported band is not a direct measurement of a brain or tubulin oscillation.</p></div>
+<div class="fact"><strong>Rat study: behavior</strong><p>Within-subject N=8 male Long–Evans rats; 4% isoflurane; mean LORR delay about +69 s (p=0.0016). LORR was a behavioral proxy for unconsciousness. The study did not measure 613 THz or establish a quantum-consciousness mechanism.</p></div>
+</div>
+</section>
+<section aria-labelledby="visual-title">
+<h2 id="visual-title">Evidence ladder — classification, not ranking</h2>
+<p class="lede">A press announcement, a computation, an animal behavior result, and a hypothesis answer different questions. No combined evidence score is calculated.</p>
+<div class="visual-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1240 300" role="img" aria-labelledby="ev-title ev-desc"><title id="ev-title">Evidence classes in the Quantum Claims Evidence Passport</title><desc id="ev-desc">Five separate evidence classes are shown side by side. They are not a shared score or a single ranking.</desc><rect width="1240" height="300" rx="24" fill="#f5f7fb"/><text x="32" y="39" fill="#12233f" font-family="system-ui, sans-serif" font-size="20" font-weight="700">Evidence classes are different kinds of records, not one score</text><g transform="translate(24,64)"><rect width="224" height="204" rx="16" fill="#dcecff" stroke="#245a9b" stroke-width="1.5"/><rect width="8" height="204" rx="4" fill="#245a9b"/><text x="22" y="38" fill="#245a9b" font-family="system-ui, sans-serif" font-size="13" font-weight="800">ANNOUNCEMENT / PLAN</text><text x="22" y="83" fill="#12233f" font-family="system-ui, sans-serif" font-size="15" font-weight="650">What an organization says</text><text x="22" y="116" fill="#35435a" font-family="system-ui, sans-serif" font-size="13">Status and expected dates</text></g><g transform="translate(268,64)"><rect width="224" height="204" rx="16" fill="#e5e5ff" stroke="#51459a" stroke-width="1.5"/><rect width="8" height="204" rx="4" fill="#51459a"/><text x="22" y="38" fill="#51459a" font-family="system-ui, sans-serif" font-size="13" font-weight="800">COMPUTATIONAL MODEL</text><text x="22" y="83" fill="#12233f" font-family="system-ui, sans-serif" font-size="15" font-weight="650">What a model predicts</text><text x="22" y="116" fill="#35435a" font-family="system-ui, sans-serif" font-size="13">Not a biological measurement</text></g><g transform="translate(512,64)"><rect width="224" height="204" rx="16" fill="#dff4ef" stroke="#176b5c" stroke-width="1.5"/><rect width="8" height="204" rx="4" fill="#176b5c"/><text x="22" y="38" fill="#176b5c" font-family="system-ui, sans-serif" font-size="13" font-weight="800">ANIMAL BEHAVIOR</text><text x="22" y="83" fill="#12233f" font-family="system-ui, sans-serif" font-size="15" font-weight="650">What rats did in a test</text><text x="22" y="116" fill="#35435a" font-family="system-ui, sans-serif" font-size="13">Not a 613 THz readout</text></g><g transform="translate(756,64)"><rect width="224" height="204" rx="16" fill="#fff0d7" stroke="#946315" stroke-width="1.5"/><rect width="8" height="204" rx="4" fill="#946315"/><text x="22" y="38" fill="#946315" font-family="system-ui, sans-serif" font-size="13" font-weight="800">HYPOTHESIS</text><text x="22" y="83" fill="#12233f" font-family="system-ui, sans-serif" font-size="15" font-weight="650">A proposed explanation</text><text x="22" y="116" fill="#35435a" font-family="system-ui, sans-serif" font-size="13">Not a settled mechanism</text></g><g transform="translate(1000,64)"><rect width="224" height="204" rx="16" fill="#fde3e5" stroke="#a53845" stroke-width="1.5"/><rect width="8" height="204" rx="4" fill="#a53845"/><text x="22" y="38" fill="#a53845" font-family="system-ui, sans-serif" font-size="13" font-weight="800">UNSUPPORTED INFERENCE</text><text x="22" y="83" fill="#12233f" font-family="system-ui, sans-serif" font-size="15" font-weight="650">Claim exceeds its source</text><text x="22" y="116" fill="#35435a" font-family="system-ui, sans-serif" font-size="13">Do not promote to fact</text></g></svg></div>
+</section>
+<section aria-labelledby="conversion-title">
+<h2 id="conversion-title">What does 613 THz convert to?</h2>
+<p class="lede">For scale only: the 2017 computational/theoretical source reports a modeled frequency band centered near 613 THz, using the notation 613 ± 8 THz. The ±8 describes the reported band, not a statistical uncertainty estimate or confidence interval.</p>
+<table class="conversion">
+<thead><tr><th>Quantity</th><th>At 613 THz</th><th>Converted values across reported band (605–621 THz)</th></tr></thead>
+<tbody>
+<tr><td>Vacuum wavelength</td><td>489.1 nm</td><td>482.8–495.5 nm</td></tr>
+<tr><td>Photon energy</td><td>2.535 eV</td><td>2.502–2.568 eV</td></tr>
+<tr><td>Wavenumber</td><td>20,447 cm<sup>−1</sup></td><td>20,181–20,714 cm<sup>−1</sup></td></tr>
+</tbody></table>
+<p class="note">These are equation-based SI conversions from frequency, not new experimental findings. A wavelength near the visible range does not show that tubulin emits visible light or hosts a biologically active optical mode. Constants: <a href="https://physics.nist.gov/cuu/Constants/" rel="noreferrer">NIST fundamental physical constants</a>.</p>
+</section>
+<section aria-labelledby="ledger-title">
+<h2 id="ledger-title">Claim ledger</h2>
+<p class="lede">Each entry names what the cited source can support—and where the inference stops.</p>
+<div class="claims"><article class="claim-card"><div class="claim-meta"><span class="claim-id">HUB-01</span><span class="badge blue">announcement/planned</span><span class="topic">Quantum hub</span></div><h3>IBM and Lockheed Martin announced a Swiss quantum innovation hub at ETH Zurich, with a planned IBM Quantum System Two hosted at CSCS in Lugano; deployment is expected by the end of 2026.</h3><p>This is an announced plan and timeline, not confirmation that the system is already operating. IBM says deployment is expected by end-2026; ETH says operation is expected by year-end.</p><div class="sources"><strong>Source:</strong> <a href="https://newsroom.ibm.com/2026-09-10-ibm,-lockheed-martin-announce-swiss-quantum-innovation-hub-at-eth-zurich,-anchored-by-switzerlands-first-ibm-quantum-computer" rel="noreferrer">IBM newsroom announcement, 10 September 2026</a> <a href="https://ethz.ch/en/news-and-events/eth-news/news/2026/09/eth-zurich-to-host-a-new-ibm-quantum-computer.html" rel="noreferrer">ETH Zurich announcement, 10 September 2026</a></div></article><article class="claim-card"><div class="claim-meta"><span class="claim-id">HUB-02</span><span class="badge red">unsupported inference</span><span class="topic">Quantum hub</span></div><h3>The announcements prove that the CSCS System Two is already operational.</h3><p>Not established by the cited announcements as of this audit snapshot. Their wording describes a planned deployment and an expected future operating date.</p><div class="sources"><strong>Source:</strong> <a href="https://newsroom.ibm.com/2026-09-10-ibm,-lockheed-martin-announce-swiss-quantum-innovation-hub-at-eth-zurich,-anchored-by-switzerlands-first-ibm-quantum-computer" rel="noreferrer">IBM newsroom announcement, 10 September 2026</a> <a href="https://ethz.ch/en/news-and-events/eth-news/news/2026/09/eth-zurich-to-host-a-new-ibm-quantum-computer.html" rel="noreferrer">ETH Zurich announcement, 10 September 2026</a></div></article><article class="claim-card"><div class="claim-meta"><span class="claim-id">HUB-03</span><span class="badge red">unsupported inference</span><span class="topic">Quantum hub</span></div><h3>The announcement means this reader has an account, affiliation, or access to the new system.</h3><p>Not established. The announcements describe access pathways for the Swiss ecosystem and participating organizations; they do not grant access to a particular reader. This project makes no claim of affiliation with IBM, Lockheed Martin, ETH Zurich, or CSCS.</p><div class="sources"><strong>Source:</strong> <a href="https://newsroom.ibm.com/2026-09-10-ibm,-lockheed-martin-announce-swiss-quantum-innovation-hub-at-eth-zurich,-anchored-by-switzerlands-first-ibm-quantum-computer" rel="noreferrer">IBM newsroom announcement, 10 September 2026</a> <a href="https://ethz.ch/en/news-and-events/eth-news/news/2026/09/eth-zurich-to-host-a-new-ibm-quantum-computer.html" rel="noreferrer">ETH Zurich announcement, 10 September 2026</a></div></article><article class="claim-card"><div class="claim-meta"><span class="claim-id">THZ-01</span><span class="badge violet">modelled/computational</span><span class="topic">613 THz claim</span></div><h3>A 2017 computational/theoretical study reports a prominent anesthetic-associated decrease in collective dipole modes of a tubulin model in the modeled frequency band centered near 613 THz (reported by the source as 613 ± 8 THz).</h3><p>This is a computational/theoretical prediction based on modeled dipole interactions, not a direct measurement in brain tissue, living tubulin, or an observed brain oscillation. The source&#x27;s ±8 THz notation describes its reported modeled frequency band; it is not a statistical uncertainty estimate or confidence interval. The authors say the biological significance of the band and its relevance to anesthetic action require further investigation.</p><div class="sources"><strong>Source:</strong> <a href="https://www.nature.com/articles/s41598-017-09992-7" rel="noreferrer">Craddock et al. (2017), Scientific Reports</a></div></article><article class="claim-card"><div class="claim-meta"><span class="claim-id">THZ-02</span><span class="badge red">unsupported inference</span><span class="topic">613 THz claim</span></div><h3>The 2017 paper directly measured the modeled band around 613 THz in living brain tissue or tubulin.</h3><p>The cited 2017 paper calculates normal modes in a model of interacting dipoles. It does not report a direct in-vivo measurement of the modeled frequency band.</p><div class="sources"><strong>Source:</strong> <a href="https://www.nature.com/articles/s41598-017-09992-7" rel="noreferrer">Craddock et al. (2017), Scientific Reports</a></div></article><article class="claim-card"><div class="claim-meta"><span class="claim-id">THZ-03</span><span class="badge red">unsupported inference</span><span class="topic">613 THz claim</span></div><h3>The modeled 613 THz band proves a biological mechanism that causes loss of consciousness.</h3><p>The computational/theoretical model does not establish causation or a consciousness mechanism. Its authors explicitly say the biological significance and relevance of the frequency shift to anesthetic action need further investigation.</p><div class="sources"><strong>Source:</strong> <a href="https://www.nature.com/articles/s41598-017-09992-7" rel="noreferrer">Craddock et al. (2017), Scientific Reports</a></div></article><article class="claim-card"><div class="claim-meta"><span class="claim-id">RAT-01</span><span class="badge green">animal-study behavioral result</span><span class="topic">Rat study</span></div><h3>In a within-subject experiment, epothilone B increased average latency to loss of righting reflex (LORR) under 4% isoflurane by about +69 s after treatment in eight male Long–Evans rats (N=8; two-tailed permutation t test, p=0.0016).</h3><p>The primary study used a within-subject design in eight male Long–Evans rats. LORR was used as a behavioral proxy for time to become unconscious. The reported mean LORR delay was about +69 s under 4% isoflurane (p=0.0016). The study did not measure 613 THz and does not establish a quantum-consciousness mechanism; these rat findings do not establish human outcomes and are not clinical advice.</p><div class="sources"><strong>Source:</strong> <a href="https://www.eneuro.org/content/11/8/ENEURO.0291-24.2024" rel="noreferrer">Khan et al. (2024), eNeuro</a></div></article><article class="claim-card"><div class="claim-meta"><span class="claim-id">RAT-02</span><span class="badge red">unsupported inference</span><span class="topic">Rat study</span></div><h3>The 2024 rat result measures the 613 THz band or establishes a quantum-consciousness mechanism.</h3><p>The study measured latency to LORR as a behavioral proxy, not the modeled frequency band. It does not establish a quantum-consciousness mechanism or human outcome. It is evidence about an epothilone B manipulation and anesthetic response in rats, not direct validation of the specific modeled band.</p><div class="sources"><strong>Source:</strong> <a href="https://www.eneuro.org/content/11/8/ENEURO.0291-24.2024" rel="noreferrer">Khan et al. (2024), eNeuro</a> <a href="https://www.nature.com/articles/s41598-017-09992-7" rel="noreferrer">Craddock et al. (2017), Scientific Reports</a></div></article><article class="claim-card"><div class="claim-meta"><span class="claim-id">HYP-01</span><span class="badge amber">hypothesis</span><span class="topic">Interpretation</span></div><h3>Quantum activity in microtubules is a proposed explanation of consciousness and anesthetic action.</h3><p>This is a research hypothesis, not a settled causal account. The 2025 review argues in favor of the broader proposal, but that review is an author&#x27;s synthesis and does not independently validate the specific modeled 613 THz band.</p><div class="sources"><strong>Source:</strong> <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12060853/" rel="noreferrer">Wiest (2025), Neuroscience of Consciousness review</a></div></article></div>
+</section>
+<section aria-labelledby="limits-title">
+<h2 id="limits-title">Use and limits</h2>
+<div class="limits">This is a reproducible source audit, not scientific, clinical, or investment advice. It does not establish a causal mechanism, a human result, current quantum-computer availability, or the reader's eligibility for access. The microtubule/quantum-consciousness account remains a hypothesis; a review's advocacy is not proof of the specific 613 THz proposal.</div>
+</section>
+<footer>Generated locally from the included claim ledger. The HTML is self-contained and has no runtime network calls; source links require a connection when opened.</footer>
+</main>
+</body>
+</html>

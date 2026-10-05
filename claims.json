@@ -1,0 +1,167 @@
+{
+  "schema_version": 1,
+  "title": "Quantum Claims Evidence Passport",
+  "version": "0.1.0",
+  "snapshot_date": "2026-10-05",
+  "non_affiliation": "This project does not imply affiliation with IBM, Lockheed Martin, ETH Zurich, or CSCS.",
+  "frequency_band": {
+    "source": "craddock-2017",
+    "center_thz": 613,
+    "half_width_thz": 8,
+    "notation": "613 ± 8 THz",
+    "meaning": "reported modeled band; not a statistical uncertainty estimate or confidence interval"
+  },
+  "rat_study": {
+    "source": "khan-2024",
+    "design": "within-subject",
+    "n": 8,
+    "subjects": "male Long–Evans rats",
+    "isoflurane_percent": 4,
+    "endpoint": "latency to loss of righting reflex (LORR)",
+    "mean_delay_s": 69,
+    "test": "two-tailed permutation t test",
+    "p_value": 0.0016,
+    "measured_613_thz": false
+  },
+  "sources": [
+    {
+      "id": "ibm-2026",
+      "title": "IBM newsroom announcement, 10 September 2026",
+      "publisher": "IBM",
+      "date": "2026-09-10",
+      "kind": "institutional announcement",
+      "url": "https://newsroom.ibm.com/2026-09-10-ibm,-lockheed-martin-announce-swiss-quantum-innovation-hub-at-eth-zurich,-anchored-by-switzerlands-first-ibm-quantum-computer"
+    },
+    {
+      "id": "ethz-2026",
+      "title": "ETH Zurich announcement, 10 September 2026",
+      "publisher": "ETH Zurich",
+      "date": "2026-09-10",
+      "kind": "institutional announcement",
+      "url": "https://ethz.ch/en/news-and-events/eth-news/news/2026/09/eth-zurich-to-host-a-new-ibm-quantum-computer.html"
+    },
+    {
+      "id": "craddock-2017",
+      "title": "Craddock et al. (2017), Scientific Reports",
+      "publisher": "Scientific Reports 7:9877",
+      "date": "2017-08-29",
+      "kind": "computational/theoretical study",
+      "doi": "10.1038/s41598-017-09992-7",
+      "url": "https://www.nature.com/articles/s41598-017-09992-7"
+    },
+    {
+      "id": "khan-2024",
+      "title": "Khan et al. (2024), eNeuro",
+      "publisher": "eNeuro 11(8)",
+      "date": "2024",
+      "kind": "animal behavioral study",
+      "doi": "10.1523/ENEURO.0291-24.2024",
+      "url": "https://www.eneuro.org/content/11/8/ENEURO.0291-24.2024"
+    },
+    {
+      "id": "wiest-2025",
+      "title": "Wiest (2025), Neuroscience of Consciousness review",
+      "publisher": "Neuroscience of Consciousness",
+      "date": "2025",
+      "kind": "review (author synthesis)",
+      "doi": "10.1093/nc/niaf011",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12060853/"
+    }
+  ],
+  "claims": [
+    {
+      "id": "HUB-01",
+      "topic": "Quantum hub",
+      "label": "announcement_planned",
+      "claim": "IBM and Lockheed Martin announced a Swiss quantum innovation hub at ETH Zurich, with a planned IBM Quantum System Two hosted at CSCS in Lugano; deployment is expected by the end of 2026.",
+      "assessment": "This is an announced plan and timeline, not confirmation that the system is already operating. IBM says deployment is expected by end-2026; ETH says operation is expected by year-end.",
+      "sources": [
+        "ibm-2026",
+        "ethz-2026"
+      ]
+    },
+    {
+      "id": "HUB-02",
+      "topic": "Quantum hub",
+      "label": "unsupported_inference",
+      "claim": "The announcements prove that the CSCS System Two is already operational.",
+      "assessment": "Not established by the cited announcements as of this audit snapshot. Their wording describes a planned deployment and an expected future operating date.",
+      "sources": [
+        "ibm-2026",
+        "ethz-2026"
+      ]
+    },
+    {
+      "id": "HUB-03",
+      "topic": "Quantum hub",
+      "label": "unsupported_inference",
+      "claim": "The announcement means this reader has an account, affiliation, or access to the new system.",
+      "assessment": "Not established. The announcements describe access pathways for the Swiss ecosystem and participating organizations; they do not grant access to a particular reader. This project makes no claim of affiliation with IBM, Lockheed Martin, ETH Zurich, or CSCS.",
+      "sources": [
+        "ibm-2026",
+        "ethz-2026"
+      ]
+    },
+    {
+      "id": "THZ-01",
+      "topic": "613 THz claim",
+      "label": "computational_model",
+      "claim": "A 2017 computational/theoretical study reports a prominent anesthetic-associated decrease in collective dipole modes of a tubulin model in the modeled frequency band centered near 613 THz (reported by the source as 613 ± 8 THz).",
+      "assessment": "This is a computational/theoretical prediction based on modeled dipole interactions, not a direct measurement in brain tissue, living tubulin, or an observed brain oscillation. The source's ±8 THz notation describes its reported modeled frequency band; it is not a statistical uncertainty estimate or confidence interval. The authors say the biological significance of the band and its relevance to anesthetic action require further investigation.",
+      "sources": [
+        "craddock-2017"
+      ]
+    },
+    {
+      "id": "THZ-02",
+      "topic": "613 THz claim",
+      "label": "unsupported_inference",
+      "claim": "The 2017 paper directly measured the modeled band around 613 THz in living brain tissue or tubulin.",
+      "assessment": "The cited 2017 paper calculates normal modes in a model of interacting dipoles. It does not report a direct in-vivo measurement of the modeled frequency band.",
+      "sources": [
+        "craddock-2017"
+      ]
+    },
+    {
+      "id": "THZ-03",
+      "topic": "613 THz claim",
+      "label": "unsupported_inference",
+      "claim": "The modeled 613 THz band proves a biological mechanism that causes loss of consciousness.",
+      "assessment": "The computational/theoretical model does not establish causation or a consciousness mechanism. Its authors explicitly say the biological significance and relevance of the frequency shift to anesthetic action need further investigation.",
+      "sources": [
+        "craddock-2017"
+      ]
+    },
+    {
+      "id": "RAT-01",
+      "topic": "Rat study",
+      "label": "animal_behavioral",
+      "claim": "In a within-subject experiment, epothilone B increased average latency to loss of righting reflex (LORR) under 4% isoflurane by about +69 s after treatment in eight male Long–Evans rats (N=8; two-tailed permutation t test, p=0.0016).",
+      "assessment": "The primary study used a within-subject design in eight male Long–Evans rats. LORR was used as a behavioral proxy for time to become unconscious. The reported mean LORR delay was about +69 s under 4% isoflurane (p=0.0016). The study did not measure 613 THz and does not establish a quantum-consciousness mechanism; these rat findings do not establish human outcomes and are not clinical advice.",
+      "sources": [
+        "khan-2024"
+      ]
+    },
+    {
+      "id": "RAT-02",
+      "topic": "Rat study",
+      "label": "unsupported_inference",
+      "claim": "The 2024 rat result measures the 613 THz band or establishes a quantum-consciousness mechanism.",
+      "assessment": "The study measured latency to LORR as a behavioral proxy, not the modeled frequency band. It does not establish a quantum-consciousness mechanism or human outcome. It is evidence about an epothilone B manipulation and anesthetic response in rats, not direct validation of the specific modeled band.",
+      "sources": [
+        "khan-2024",
+        "craddock-2017"
+      ]
+    },
+    {
+      "id": "HYP-01",
+      "topic": "Interpretation",
+      "label": "hypothesis",
+      "claim": "Quantum activity in microtubules is a proposed explanation of consciousness and anesthetic action.",
+      "assessment": "This is a research hypothesis, not a settled causal account. The 2025 review argues in favor of the broader proposal, but that review is an author's synthesis and does not independently validate the specific modeled 613 THz band.",
+      "sources": [
+        "wiest-2025"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Tests (Python ${{ matrix.python-version }})
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Validate claim ledger
+        run: python passport.py validate
+      - name: Unit tests (offline; stdlib only)
+        run: python -m unittest discover -s tests -v
+      - name: Rebuild and compare committed report and SVG
+        run: |
+          python passport.py build --output /tmp/report.html --svg /tmp/evidence-ladder.svg
+          cmp /tmp/report.html docs/report.html
+          cmp /tmp/evidence-ladder.svg assets/evidence-ladder.svg
+      - name: Report is self-contained (no scripts or remote assets)
+        run: |
+          ! grep -nE '<script|<img|<link|<iframe|src=|@import|url\(' docs/report.html

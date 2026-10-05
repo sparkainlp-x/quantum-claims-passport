@@ -1,0 +1,59 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below. It is a claims audit: it classifies public claims against their sources and does not itself claim a consciousness mechanism, clinical relevance, or current quantum-computer availability."
+title: "Quantum Claims Evidence Passport: an offline audit of a Swiss quantum hub announcement and a modeled 613 THz anesthetic/microtubule frequency band"
+type: software
+authors:
+  - family-names: "Brisson"
+    given-names: "Jean-François"
+    affiliation: "Spark AI NLP"
+    orcid: "https://orcid.org/0009-0000-9778-5374"
+repository-code: "https://github.com/sparkainlp-x/quantum-claims-passport"
+url: "https://sparkainlp-x.github.io/quantum-claims-passport/report.html"
+license: AGPL-3.0-only
+version: "0.1.0"
+date-released: "2026-10-05"
+abstract: >-
+  Offline, Python-standard-library CLI and static HTML report that separates an
+  institutional announcement and future deployment plan from computational or
+  theoretical modeling, animal behavioral evidence, hypotheses, and unsupported
+  inferences. Converts the reported 613 +/- 8 THz modeled band with exact SI
+  constants for scale only. Fail-closed validation fences claims about
+  consciousness mechanisms, current operation, direct measurement, or proof.
+  No affiliation with IBM, Lockheed Martin, ETH Zurich, or CSCS is implied.
+  Not medical, scientific, or investment advice. Audit snapshot 2026-10-05.
+keywords:
+  - evidence audit
+  - claims audit
+  - scientific communication
+  - reproducibility
+  - research software
+  - offline
+references:
+  - type: software
+    title: "Evidence Passport: offline MVP that turns one experiment-run manifest into a static HTML evidence passport and normalized JSON"
+    authors:
+      - family-names: "Brisson"
+        given-names: "Jean-François"
+        orcid: "https://orcid.org/0009-0000-9778-5374"
+    repository-code: "https://github.com/sparkainlp-x/evidence-passport"
+    doi: "10.5281/zenodo.23165143"
+  - type: article
+    title: "Anesthetic Alterations of Collective Terahertz Oscillations in Tubulin Correlate with Clinical Potency: Implications for Anesthetic Action and Post-Operative Cognitive Dysfunction"
+    authors:
+      - family-names: "Craddock"
+        given-names: "Travis J. A."
+      - name: "et al."
+    journal: "Scientific Reports"
+    volume: 7
+    year: 2017
+    doi: "10.1038/s41598-017-09992-7"
+  - type: article
+    title: "Microtubule-Stabilizer Epothilone B Delays Anesthetic-Induced Unconsciousness in Rats"
+    authors:
+      - family-names: "Khan"
+        given-names: "Sana"
+      - name: "et al."
+    journal: "eNeuro"
+    volume: 11
+    year: 2024
+    doi: "10.1523/ENEURO.0291-24.2024"
