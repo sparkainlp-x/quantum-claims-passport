@@ -8,10 +8,18 @@ authors:
     affiliation: "Spark AI NLP"
     orcid: "https://orcid.org/0009-0000-9778-5374"
 repository-code: "https://github.com/sparkainlp-x/quantum-claims-passport"
-url: "https://sparkainlp-x.github.io/quantum-claims-passport/report.html"
+url: "https://doi.org/10.5281/zenodo.23167801"
 license: AGPL-3.0-only
 version: "0.1.0"
 date-released: "2026-10-05"
+doi: 10.5281/zenodo.23167801
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23167801
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23167802
+    description: "Version DOI for v0.1.0"
 abstract: >-
   Offline, Python-standard-library CLI and static HTML report that separates an
   institutional announcement and future deployment plan from computational or

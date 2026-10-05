@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/sparkainlp-x/quantum-claims-passport/actions/workflows/ci.yml/badge.svg)](https://github.com/sparkainlp-x/quantum-claims-passport/actions/workflows/ci.yml)
 [![License: AGPL-3.0-only](https://img.shields.io/badge/license-AGPL--3.0--only-blue.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23167801.svg)](https://doi.org/10.5281/zenodo.23167801)
 [![Report](https://img.shields.io/badge/report-GitHub%20Pages-245a9b.svg)](https://sparkainlp-x.github.io/quantum-claims-passport/report.html)
 
 **A claims audit for scientific communication.** This is a compact, reproducible audit of public claims about (1) the announced IBM/Lockheed Martin/ETH Zurich/CSCS quantum hub and (2) a modeled/reported 613 THz anesthetic–microtubule frequency band. The project keeps announcements, computational/theoretical predictions, animal behavioral results, hypotheses, and unsupported inferences in separate categories rather than blending unlike evidence into a score.
@@ -66,7 +67,7 @@ Source descriptions are written in original language and point to the source pub
 
 ## Cite
 
-See [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button). No Zenodo DOI has been minted yet; the draft metadata is in [`ZENODO_METADATA.md`](ZENODO_METADATA.md) and [`.zenodo.json`](.zenodo.json). A DOI will be added only after a release is archived.
+See [`CITATION.cff`](CITATION.cff) (GitHub's "Cite this repository" button). Concept DOI (all versions): [10.5281/zenodo.23167801](https://doi.org/10.5281/zenodo.23167801). Version DOI for v0.1.0: [10.5281/zenodo.23167802](https://doi.org/10.5281/zenodo.23167802).
 
 Author: Jean-François Brisson, Spark AI NLP · ORCID [0009-0000-9778-5374](https://orcid.org/0009-0000-9778-5374)
 
